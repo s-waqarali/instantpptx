@@ -1,0 +1,1133 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<title>PresentationGPT - ChatGPT 4 for Presentations</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta name="color-scheme" content="light only" />
+	<meta name="description" content="Create stunning PowerPoint Presentations in seconds. Never start from scratch again." />
+	<meta property="og:site_name" content="PresentationGPT - ChatGPT 4 for Presentations" />
+	<meta property="og:title" content="PresentationGPT - ChatGPT 4 for Presentations" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="Create stunning PowerPoint Presentations in seconds. Never start from scratch again." />
+	<meta name="name" content="chatgpt" />
+	<meta name="name" content="chatgpt4" />
+	<meta name="name" content="gpt4" />
+	<meta name="name" content="chatgpt presentations" />
+	<meta name="name" content="gpt presentations" />
+	<meta name="name" content="presentation gpt" />
+	<meta name="name" content="presentations gpt" />
+	<meta name="name" content="ai presentation" />
+	<link href="https://fonts.googleapis.com/css?display=swap&family=Roboto:400,400italic,700,700italic,500,500italic,300,300italic,900,900italic" rel="stylesheet" type="text/css" />
+	<link rel="icon" type="image/png" href="assets/images/favicon.png" />
+	<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
+	<link rel="stylesheet" href="assets/main.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="main">
+			<div class="inner">
+				<section id="home-section">
+					<div id="container04" class="container columns full screen">
+						<div class="wrapper">
+							<div class="inner">
+								<div>
+									<div id="image01" class="image">
+										<a href="https://presentationgpt.com" class="frame"><img src="assets/images/image01.png" alt="" /></a>
+									</div>
+									<h1 id="text28">ChatGPT 4 for Presentations</h1>
+									<p id="text30">Create stunning PowerPoint Presentations in seconds. Never start from
+										scratch again.</p>
+									<div id="embed02">
+										<input type="text" id="my-text-box" style="resize: none; height: 30px; width: 80%; font-size: 20px; margin: 3px;"
+											onfocus="if(this.value == 'Write slides about...') { this.value = ''; }" placeholder="Topic of the PPT" />
+                                        <select type="select" style="resize: none; height: 30px; width: 80%; font-size: 20px; margin: 3px;">
+                                            <option>Audience of Presentation</option>
+                                            <option value="opt1">opt1</option>
+                                            <option value="opt2">opt2</option>
+                                        </select>
+                                        <select type="select" style="resize: none; height: 30px; width: 80%; font-size: 20px; margin: 3px;">
+                                            <option>Goal of Presentation</option>
+                                            <option value="opt1">opt1</option>
+                                            <option value="opt2">opt2</option>
+                                        </select>
+                                        <div id="slideNameDiv"></div>
+                                        <input type="button" id="removeButton" value="Remove Slide Name" style="display:none; resize: none; height: 40px; width: 80%; font-size: 20px; margin: 3px;" />
+                                        <input type="button" id="addButton" value="Add Slide Name" style="resize: none; height: 40px; width: 80%; font-size: 20px; margin: 3px;" />
+										<div class="progress" style="display: none;">
+											<div class="progress__fill"></div>
+											<span class="progress__text">0%</span>
+										</div>
+									</div>
+									
+									<ul id="buttons08" class="buttons" onclick="callAPI()">
+										<li>
+											<a class="button n01"> <svg>
+													<use xlink:href="assets/icons.svg#cargo2"></use>
+												</svg><span class="label">Create Presentation</span></a>
+										</li>
+									</ul>
+								</div>
+								<div>
+									<div id="image05" class="image" data-visibility="desktop">
+										<span class="frame deferred"><img
+												src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA4MDQgNzkxIiB3aWR0aD0iODA0IiBoZWlnaHQ9Ijc5MSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0idHJhbnNwYXJlbnQiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D"
+												data-src="assets/images/image05.png" alt=""
+												oncontextmenu="return false;" ondragstart="return false;" /></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="container">
+						<div class="top-bar">
+						  <h1>Title</h1>
+						</div>
+						<div class="middle-section">
+							<ul id="bullet-points">
+							</ul>
+						</div>
+						<div class="bottom-right">
+						  <p>1</p>
+						</div>
+					  </div> -->
+					<div id="container-wrapper"></div> <!-- Here is the container -->
+					<div id="container09" class="columns full screen">
+						<div class="wrapper">
+							<div class="inner">
+								<div>
+									<hr id="divider04" class="style1">
+									<h2 id="text06" class="style6">Works with PowerPoint &amp; Google Slides</h2>
+									<p id="text04" class="style1">PresentationGPT is designed to work seamlessly with
+										your favorite presentation tools like PowerPoint and Google Slides, allowing you
+										to easily download your presentation and start editing them.</p>
+								</div>
+								<div>
+									<hr id="divider07" class="style1">
+									<h2 id="text13" class="style6">GPT-4</h2>
+									<p id="text15" class="style1">PresentationGPT harnesses the power of GPT-4, the most
+										advanced language generation models available, to fuel our AI algorithms and
+										generate high-quality presentations.</p>
+								</div>
+								<div>
+									<hr id="divider02" class="style1">
+									<h2 id="text17" class="style6">Detailed &amp; Accurate</h2>
+									<p id="text10" class="style1">Whether you&#39;re a busy professional or a student,
+										PresentationGPT can help you save time and produce accurate, detailed, and
+										impressive presentations.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="container03" class="columns full screen">
+						<div class="wrapper">
+							<div class="inner">
+								<div>
+									<h2 id="text22" class="style2">Say Goodbye to Boring Presentations</h2>
+									<p id="text24" class="style1">Don&#39;t settle for less. With PresentationGPT, you
+										can create dynamic, engaging presentations that leave a lasting impression. Try
+										it today and see the difference for yourself.</p>
+								</div>
+								<div>
+									<div id="image02" class="image">
+										<span class="frame"><img src="assets/images/image02.jpg" alt=""
+												oncontextmenu="return false;" ondragstart="return false;" /></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="container13" class="columns full screen">
+						<div class="wrapper">
+							<div class="inner" data-reorder="1,0">
+								<div>
+									<div id="image06" class="image">
+										<span class="frame deferred"><img
+												src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNTMwIDEzMDYiIHdpZHRoPSIxNTMwIiBoZWlnaHQ9IjEzMDYiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9InRyYW5zcGFyZW50IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B"
+												data-src="assets/images/image06.png" alt=""
+												oncontextmenu="return false;" ondragstart="return false;" /></span>
+									</div>
+								</div>
+								<div>
+									<h2 id="text07" class="style2">Idea to Presentation in seconds</h2>
+									<p id="text02" class="style1">With PresentationGPT, you can generate beautiful
+										presentations from a simple text description in a matter of seconds. Say goodbye
+										to hours spent on manual formatting and writing, our GPT-4 powered tool does it
+										all for you.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="container02" class="default full screen">
+						<div class="wrapper">
+							<div class="inner">
+								<h2 id="text08">What Our Users Say</h2>
+							</div>
+						</div>
+					</div>
+					<div id="container08" class="columns full screen">
+						<div class="wrapper">
+							<div class="inner">
+								<div>
+									<div id="embed06">
+										<blockquote class="twitter-tweet">
+											<p lang="en" dir="ltr">This AI tool can save you hours of work by designing
+												an entire slide deck for you.<br><br>It&#39;s ChatGPT for presentations.
+												Here&#39;s how to use it.<br><br>🧵 A tutorial:</p>&mdash; Artificial
+											Intelligence (@AiHandbook) <a
+												href="https://twitter.com/AiHandbook/status/1650163373617627138?ref_src=twsrc%5Etfw">April
+												23, 2023</a>
+										</blockquote>
+										<script async src="https://platform.twitter.com/widgets.js"
+											charset="utf-8"></script>
+									</div>
+								</div>
+								<div>
+									<div id="embed07">
+										<blockquote class="twitter-tweet">
+											<p lang="en" dir="ltr">This AI tool can save you hours of work by designing
+												an entire slide deck for you.<br><br>It&#39;s ChatGPT for presentations.
+												Here&#39;s how to use it.<br><br>🧵 A tutorial:</p>&mdash; Artificial
+											Intelligence (@AiHandbook) <a
+												href="https://twitter.com/AiHandbook/status/1650163373617627138?ref_src=twsrc%5Etfw">April
+												23, 2023</a>
+										</blockquote>
+										<script async src="https://platform.twitter.com/widgets.js"
+											charset="utf-8"></script>
+									</div>
+								</div>
+								<div>
+									<div id="embed08">
+										<blockquote class="twitter-tweet">
+											<p lang="en" dir="ltr">This AI tool can save you hours of work by designing
+												an entire slide deck for you.<br><br>It&#39;s ChatGPT for presentations.
+												Here&#39;s how to use it.<br><br>🧵 A tutorial:</p>&mdash; Artificial
+											Intelligence (@AiHandbook) <a
+												href="https://twitter.com/AiHandbook/status/1650163373617627138?ref_src=twsrc%5Etfw">April
+												23, 2023</a>
+										</blockquote>
+										<script async src="https://platform.twitter.com/widgets.js"
+											charset="utf-8"></script>
+									</div>
+								</div>
+								<div>
+									<div id="embed09">
+										<blockquote class="twitter-tweet">
+											<p lang="en" dir="ltr">This AI tool can save you hours of work by designing
+												an entire slide deck for you.<br><br>It&#39;s ChatGPT for presentations.
+												Here&#39;s how to use it.<br><br>🧵 A tutorial:</p>&mdash; Artificial
+											Intelligence (@AiHandbook) <a
+												href="https://twitter.com/AiHandbook/status/1650163373617627138?ref_src=twsrc%5Etfw">April
+												23, 2023</a>
+										</blockquote>
+										<script async src="https://platform.twitter.com/widgets.js"
+											charset="utf-8"></script>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="container07" class="default full screen">
+						<div class="wrapper">
+							<div class="inner">
+								<h2 id="text01">Simple &amp; Transparent Pricing</h2>
+								<p id="text41">No registration, hidden fees, or subscriptions. Create &amp; share for
+									free, pay only when you download.</p>
+							</div>
+						</div>
+					</div>
+					<div id="container06" class="columns">
+						<div class="wrapper">
+							<div class="inner">
+								<div>
+									<p id="text38" class="style7">Free Plan</p>
+									<h2 id="text39" class="style11">$0</h2>
+									<div id="list01" class="list">
+										<ul>
+											<li>
+												<p>Create unlimited presentations</p>
+											</li>
+											<li>
+												<p>Share presentations easily</p>
+											</li>
+											<li>
+												<p>Access to basic design templates</p>
+											</li>
+										</ul>
+									</div>
+									<div id="list06" class="style1 list">
+										<ul>
+											<li>
+												<p>Download your presentations</p>
+											</li>
+											<li>
+												<p>High-quality, editable file format - PowerPoint</p>
+											</li>
+											<li>
+												<p>High-quality non-editable file format - PDF</p>
+											</li>
+											<li>
+												<p>High-quality, editable Google Slides deck</p>
+											</li>
+											<li>
+												<p>Perfect for offline use, editing, and printing</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div>
+									<p id="text33" class="style8">Pay-Per-Download</p>
+									<h2 id="text34" class="style4">$4.99/download</h2>
+									<div id="list05" class="style2 list">
+										<ul>
+											<li>
+												<p>Create unlimited presentations</p>
+											</li>
+											<li>
+												<p>Share presentations easily</p>
+											</li>
+											<li>
+												<p>Access to basic design templates</p>
+											</li>
+											<li>
+												<p>Download your presentations</p>
+											</li>
+											<li>
+												<p>High-quality, editable file format - PowerPoint</p>
+											</li>
+											<li>
+												<p>High-quality non-editable file format - PDF</p>
+											</li>
+											<li>
+												<p>High-quality, editable Google Slides deck</p>
+											</li>
+											<li>
+												<p>Perfect for offline use, editing, and printing</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="container01" class="default full screen">
+						<div class="wrapper">
+							<div class="inner">
+								<ul id="buttons10" class="buttons">
+									<li>
+										<a href="#" class="button n01"><svg>
+												<use xlink:href="assets/icons.svg#clips4sale"></use>
+											</svg><span class="label">Get Started</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="container05" class="columns full screen">
+						<div class="wrapper">
+							<div class="inner">
+								<div>
+									<p id="text23"><strong>Important Links</strong></p>
+									<ul id="links01" class="links">
+										<li class="n01">
+											<a href="#terms">Terms</a>
+										</li>
+										<li class="n02">
+											<a href="#privacy">Privacy</a>
+										</li>
+										<li class="n03">
+											<a href="#disclaimer">Disclaimer</a>
+										</li>
+									</ul>
+								</div>
+								<div>
+									<ul id="icons01" class="icons">
+										<li>
+											<a class="n01" href="https://twitter.com/AiPresentation"
+												aria-label="Twitter">
+												<svg>
+													<use xlink:href="assets/icons.svg#twitter"></use>
+												</svg>
+												<span class="label">Twitter</span>
+											</a>
+										</li>
+										<li>
+											<a class="n02" href="mailto:romisyed@outlook.com" aria-label="Email">
+												<svg>
+													<use xlink:href="assets/icons.svg#email"></use>
+												</svg>
+												<span class="label">Email</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="container14" class="default full screen">
+						<div class="wrapper">
+							<div class="inner">
+								<p id="text25"><span class="p">© 2023 PresentationGPT. All Rights Reserved.<br />Made
+										with ♥ in Canada.</span></p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="terms-section">
+					<div id="container10" class="container default full screen">
+						<div class="wrapper">
+							<div class="inner">
+								<h2 id="text09">Terms And Conditions</h2>
+								<p id="text11">Updated at 2023-02-04</p>
+								<p id="text18"><span class="p"><strong>General Terms</strong><br />By accessing and
+										placing an order with PresentationGPT, you confirm that you are in agreement
+										with and bound by the terms of service contained in the Terms &amp; Conditions
+										outlined below. These terms apply to the entire website and any email or other
+										type of communication between you and PresentationGPT.</span><span
+										class="p">Under no circumstances shall PresentationGPT team be liable for any
+										direct, indirect, special, incidental or consequential damages, including, but
+										not limited to, loss of data or profit, arising out of the use, or the inability
+										to use, the materials on this site, even if PresentationGPT team or an
+										authorized representative has been advised of the possibility of such damages.
+										If your use of materials from this site results in the need for servicing,
+										repair or correction of equipment or data, you assume any costs
+										thereof.</span><span class="p">PresentationGPT will not be responsible for any
+										outcome that may occur during the course of usage of our resources. We reserve
+										the rights to change prices and revise the resources usage policy in any moment.
+										This Terms &amp; Conditions was created with Termify.</span><span
+										class="p"><strong>License</strong><br />PresentationGPT grants you a revocable,
+										non-exclusive, non-transferable, limited license to download, install and use
+										the website strictly in accordance with the terms of this Agreement.</span><span
+										class="p">These Terms &amp; Conditions are a contract between you and
+										PresentationGPT (referred to in these Terms &amp; Conditions as
+										&quot;PresentationGPT&quot;, &quot;us&quot;, &quot;we&quot; or &quot;our&quot;),
+										the provider of the PresentationGPT website and the services accessible from the
+										PresentationGPT website (which are collectively referred to in these Terms &amp;
+										Conditions as the &quot;PresentationGPT Service&quot;).</span><span
+										class="p">You are agreeing to be bound by these Terms &amp; Conditions. If you
+										do not agree to these Terms &amp; Conditions, please do not use the
+										PresentationGPT Service. In these Terms &amp; Conditions, &quot;you&quot; refers
+										both to you as an individual and to the entity you represent. If you violate any
+										of these Terms &amp; Conditions, we reserve the right to cancel your account or
+										block access to your account without notice.</span><span
+										class="p"><strong>Definitions and key terms</strong><br />To help explain things
+										as clearly as possible in this Terms &amp; Conditions, every time any of these
+										terms are referenced, are strictly defined as:</span><span class="p">Cookie:
+										small amount of data generated by a website and saved by your web browser. It is
+										used to identify your browser, provide analytics, remember information about you
+										such as your language preference or login information.<br />Company: when this
+										policy mentions “Company,” “we,” “us,” or “our,” it refers to PresentationGPT,
+										that is responsible for your information under this Terms &amp;
+										Conditions.<br />Country: where PresentationGPT or the owners/founders of
+										PresentationGPT are based, in this case is DE<br />Device: any internet
+										connected device such as a phone, tablet, computer or any other device that can
+										be used to visit PresentationGPT and use the services.<br />Service: refers to
+										the service provided by PresentationGPT as described in the relative terms (if
+										available) and on this platform.<br />Third-party service: refers to
+										advertisers, contest sponsors, promotional and marketing partners, and others
+										who provide our content or whose products or services we think may interest
+										you.<br />Website: PresentationGPT&#39;s site, which can be accessed via this
+										URL: presentationgpt.com<br />You: a person or entity that is registered with
+										PresentationGPT to use the Services.</span><span
+										class="p"><strong>Restrictions</strong><br />You agree not to, and you will not
+										permit others to:</span><span class="p">License, sell, rent, lease, assign,
+										distribute, transmit, host, outsource, disclose or otherwise commercially
+										exploit the website or make the platform available to any third
+										party.<br />Modify, make derivative works of, disassemble, decrypt, reverse
+										compile or reverse engineer any part of the website.<br />Remove, alter or
+										obscure any proprietary notice (including any notice of copyright or trademark)
+										of PresentationGPT or its affiliates, partners, suppliers or the licensors of
+										the website.</span><span class="p"><strong>Return and Refund
+											Policy</strong><br />Thanks for shopping at PresentationGPT. We appreciate
+										the fact that you like to buy the stuff we build. We also want to make sure you
+										have a rewarding experience while you’re exploring, evaluating, and purchasing
+										our products.</span><span class="p">As with any shopping experience, there are
+										terms and conditions that apply to transactions at PresentationGPT. We’ll be as
+										brief as our attorneys will allow. The main thing to remember is that by placing
+										an order or making a purchase at PresentationGPT, you agree to the terms along
+										with PresentationGPT&#39;s Privacy Policy.</span><span class="p">If, for any
+										reason, You are not completely satisfied with any good or service that we
+										provide, don&#39;t hesitate to contact us and we will discuss any of the issues
+										you are going through with our product.</span><span class="p"><strong>Your
+											Suggestions</strong><br />Any feedback, comments, ideas, improvements or
+										suggestions (collectively, &quot;Suggestions&quot;) provided by you to
+										PresentationGPT with respect to the website shall remain the sole and exclusive
+										property of PresentationGPT.</span><span class="p">PresentationGPT shall be free
+										to use, copy, modify, publish, or redistribute the Suggestions for any purpose
+										and in any way without any credit or any compensation to you.</span><span
+										class="p"><strong>Your Consent</strong><br />We&#39;ve updated our Terms &amp;
+										Conditions to provide you with complete transparency into what is being set when
+										you visit our site and how it&#39;s being used. By using our website,
+										registering an account, or making a purchase, you hereby consent to our Terms
+										&amp; Conditions.</span><span class="p"><strong>Links to Other
+											Websites</strong><br />This Terms &amp; Conditions applies only to the
+										Services. The Services may contain links to other websites not operated or
+										controlled by PresentationGPT. We are not responsible for the content, accuracy
+										or opinions expressed in such websites, and such websites are not investigated,
+										monitored or checked for accuracy or completeness by us. Please remember that
+										when you use a link to go from the Services to another website, our Terms &amp;
+										Conditions are no longer in effect. Your browsing and interaction on any other
+										website, including those that have a link on our platform, is subject to that
+										website’s own rules and policies. Such third parties may use their own cookies
+										or other methods to collect information about you.</span><span
+										class="p"><strong>Cookies</strong><br />PresentationGPT uses &quot;Cookies&quot;
+										to identify the areas of our website that you have visited. A Cookie is a small
+										piece of data stored on your computer or mobile device by your web browser. We
+										use Cookies to enhance the performance and functionality of our website but are
+										non-essential to their use. However, without these cookies, certain
+										functionality like videos may become unavailable or you would be required to
+										enter your login details every time you visit the website as we would not be
+										able to remember that you had logged in previously. Most web browsers can be set
+										to disable the use of Cookies. However, if you disable Cookies, you may not be
+										able to access functionality on our website correctly or at all. We never place
+										Personally Identifiable Information in Cookies.</span><span
+										class="p"><strong>Changes To Our Terms &amp; Conditions</strong><br />You
+										acknowledge and agree that may stop (permanently or temporarily) providing the
+										Service (or any features within the Service) to you or to users generally at ’s
+										sole discretion, without prior notice to you. You may stop using the Service at
+										any time. You do not need to specifically inform when you stop using the
+										Service. You acknowledge and agree that if disables access to your account, you
+										may be prevented from accessing the Service, your account details or any files
+										or other materials which is contained in your account.</span><span class="p">If
+										we decide to change our Terms &amp; Conditions, we will post those changes on
+										this page, and/or update the Terms &amp; Conditions modification date
+										below.</span><span class="p"><strong>Modifications to Our
+											website</strong><br />PresentationGPT reserves the right to modify, suspend
+										or discontinue, temporarily or permanently, the website or any service to which
+										it connects, with or without notice and without liability to you.</span><span
+										class="p"><strong>Updates to Our website</strong><br />PresentationGPT may from
+										time to time provide enhancements or improvements to the features/ functionality
+										of the website, which may include patches, bug fixes, updates, upgrades and
+										other modifications (&quot;Updates&quot;).</span><span class="p">Updates may
+										modify or delete certain features and/or functionalities of the website. You
+										agree that PresentationGPT has no obligation to (i) provide any Updates, or (ii)
+										continue to provide or enable any particular features and/or functionalities of
+										the website to you.</span><span class="p">You further agree that all Updates
+										will be (i) deemed to constitute an integral part of the website, and (ii)
+										subject to the terms and conditions of this Agreement.</span><span
+										class="p"><strong>Third-Party Services</strong><br />We may display, include or
+										make available third-party content (including data, information, applications
+										and other products services) or provide links to third-party websites or
+										services (&quot;Third- Party Services&quot;).</span><span class="p">You
+										acknowledge and agree that PresentationGPT shall not be responsible for any
+										Third-Party Services, including their accuracy, completeness, timeliness,
+										validity, copyright compliance, legality, decency, quality or any other aspect
+										thereof. PresentationGPT does not assume and shall not have any liability or
+										responsibility to you or any other person or entity for any Third-Party
+										Services.</span><span class="p">Third-Party Services and links thereto are
+										provided solely as a convenience to you and you access and use them entirely at
+										your own risk and subject to such third parties&#39; terms and
+										conditions.</span><span class="p"><strong>Term and
+											Termination</strong><br />This Agreement shall remain in effect until
+										terminated by you or PresentationGPT.</span><span class="p">PresentationGPT may,
+										in its sole discretion, at any time and for any or no reason, suspend or
+										terminate this Agreement with or without prior notice.</span><span
+										class="p">This Agreement will terminate immediately, without prior notice from
+										PresentationGPT, in the event that you fail to comply with any provision of this
+										Agreement. You may also terminate this Agreement by deleting the website and all
+										copies thereof from your computer.</span><span class="p">Upon termination of
+										this Agreement, you shall cease all use of the website and delete all copies of
+										the website from your computer.</span><span class="p">Termination of this
+										Agreement will not limit any of PresentationGPT&#39;s rights or remedies at law
+										or in equity in case of breach by you (during the term of this Agreement) of any
+										of your obligations under the present Agreement.</span><span
+										class="p"><strong>Copyright Infringement Notice</strong><br />If you are a
+										copyright owner or such owner’s agent and believe any material on our website
+										constitutes an infringement on your copyright, please contact us setting forth
+										the following information: (a) a physical or electronic signature of the
+										copyright owner or a person authorized to act on his behalf; (b) identification
+										of the material that is claimed to be infringing; (c) your contact information,
+										including your address, telephone number, and an email; (d) a statement by you
+										that you have a good faith belief that use of the material is not authorized by
+										the copyright owners; and (e) the a statement that the information in the
+										notification is accurate, and, under penalty of perjury you are authorized to
+										act on behalf of the owner.</span><span
+										class="p"><strong>Indemnification</strong><br />You agree to indemnify and hold
+										PresentationGPT and its parents, subsidiaries, affiliates, officers, employees,
+										agents, partners and licensors (if any) harmless from any claim or demand,
+										including reasonable attorneys&#39; fees, due to or arising out of your: (a) use
+										of the website; (b) violation of this Agreement or any law or regulation; or (c)
+										violation of any right of a third party.</span><span class="p"><strong>No
+											Warranties</strong><br />The website is provided to you &quot;AS IS&quot;
+										and &quot;AS AVAILABLE&quot; and with all faults and defects without warranty of
+										any kind. To the maximum extent permitted under applicable law, PresentationGPT,
+										on its own behalf and on behalf of its affiliates and its and their respective
+										licensors and service providers, expressly disclaims all warranties, whether
+										express, implied, statutory or otherwise, with respect to the website, including
+										all implied warranties of merchantability, fitness for a particular purpose,
+										title and non-infringement, and warranties that may arise out of course of
+										dealing, course of performance, usage or trade practice. Without limitation to
+										the foregoing, PresentationGPT provides no warranty or undertaking, and makes no
+										representation of any kind that the website will meet your requirements, achieve
+										any intended results, be compatible or work with any other software, , systems
+										or services, operate without interruption, meet any performance or reliability
+										standards or be error free or that any errors or defects can or will be
+										corrected.</span><span class="p">Without limiting the foregoing, neither
+										PresentationGPT nor any PresentationGPT&#39;s provider makes any representation
+										or warranty of any kind, express or implied: (i) as to the operation or
+										availability of the website, or the information, content, and materials or
+										products included thereon; (ii) that the website will be uninterrupted or
+										error-free; (iii) as to the accuracy, reliability, or currency of any
+										information or content provided through the website; or (iv) that the website,
+										its servers, the content, or e-mails sent from or on behalf of PresentationGPT
+										are free of viruses, scripts, trojan horses, worms, malware, timebombs or other
+										harmful components.</span><span class="p">Some jurisdictions do not allow the
+										exclusion of or limitations on implied warranties or the limitations on the
+										applicable statutory rights of a consumer, so some or all of the above
+										exclusions and limitations may not apply to you.</span><span
+										class="p"><strong>Limitation of Liability</strong><br />Notwithstanding any
+										damages that you might incur, the entire liability of PresentationGPT and any of
+										its suppliers under any provision of this Agreement and your exclusive remedy
+										for all of the foregoing shall be limited to the amount actually paid by you for
+										the website.</span><span class="p">To the maximum extent permitted by applicable
+										law, in no event shall PresentationGPT or its suppliers be liable for any
+										special, incidental, indirect, or consequential damages whatsoever (including,
+										but not limited to, damages for loss of profits, for loss of data or other
+										information, for business interruption, for personal injury, for loss of privacy
+										arising out of or in any way related to the use of or inability to use the
+										website, third-party software and/or third-party hardware used with the website,
+										or otherwise in connection with any provision of this Agreement), even if
+										PresentationGPT or any supplier has been advised of the possibility of such
+										damages and even if the remedy fails of its essential purpose.</span><span
+										class="p">Some states/jurisdictions do not allow the exclusion or limitation of
+										incidental or consequential damages, so the above limitation or exclusion may
+										not apply to you.</span><span class="p"><strong>Severability</strong><br />If
+										any provision of this Agreement is held to be unenforceable or invalid, such
+										provision will be changed and interpreted to accomplish the objectives of such
+										provision to the greatest extent possible under applicable law and the remaining
+										provisions will continue in full force and effect.</span><span class="p">This
+										Agreement, together with the Privacy Policy and any other legal notices
+										published by PresentationGPT on the Services, shall constitute the entire
+										agreement between you and PresentationGPT concerning the Services. If any
+										provision of this Agreement is deemed invalid by a court of competent
+										jurisdiction, the invalidity of such provision shall not affect the validity of
+										the remaining provisions of this Agreement, which shall remain in full force and
+										effect. No waiver of any term of this Agreement shall be deemed a further or
+										continuing waiver of such term or any other term, and PresentationGPT&#39;s
+										failure to assert any right or provision under this Agreement shall not
+										constitute a waiver of such right or provision. YOU AND PresentationGPT AGREE
+										THAT ANY CAUSE OF ACTION ARISING OUT OF OR RELATED TO THE SERVICES MUST COMMENCE
+										WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES. OTHERWISE, SUCH CAUSE OF
+										ACTION IS PERMANENTLY BARRED.</span></p>
+								<p id="text05"><span class="p"><strong>Waiver</strong><br />Except as provided herein,
+										the failure to exercise a right or to require performance of an obligation under
+										this Agreement shall not effect a party&#39;s ability to exercise such right or
+										require such performance at any time thereafter nor shall be the waiver of a
+										breach constitute waiver of any subsequent breach.</span><span class="p">No
+										failure to exercise, and no delay in exercising, on the part of either party,
+										any right or any power under this Agreement shall operate as a waiver of that
+										right or power. Nor shall any single or partial exercise of any right or power
+										under this Agreement preclude further exercise of that or any other right
+										granted herein. In the event of a conflict between this Agreement and any
+										applicable purchase or other terms, the terms of this Agreement shall
+										govern.</span><span class="p"><strong>Amendments to this
+											Agreement</strong><br />PresentationGPT reserves the right, at its sole
+										discretion, to modify or replace this Agreement at any time. If a revision is
+										material we will provide at least 30 days&#39; notice prior to any new terms
+										taking effect. What constitutes a material change will be determined at our sole
+										discretion.</span><span class="p">By continuing to access or use our website
+										after any revisions become effective, you agree to be bound by the revised
+										terms. If you do not agree to the new terms, you are no longer authorized to use
+										PresentationGPT.</span><span class="p"><strong>Entire
+											Agreement</strong><br />The Agreement constitutes the entire agreement
+										between you and PresentationGPT regarding your use of the website and supersedes
+										all prior and contemporaneous written or oral agreements between you and
+										PresentationGPT.</span><span class="p">You may be subject to additional terms
+										and conditions that apply when you use or purchase other PresentationGPT&#39;s
+										services, which PresentationGPT will provide to you at the time of such use or
+										purchase.</span><span class="p"><strong>Updates to Our Terms</strong><br />We
+										may change our Service and policies, and we may need to make changes to these
+										Terms so that they accurately reflect our Service and policies. Unless otherwise
+										required by law, we will notify you (for example, through our Service) before we
+										make changes to these Terms and give you an opportunity to review them before
+										they go into effect. Then, if you continue to use the Service, you will be bound
+										by the updated Terms. If you do not want to agree to these or any updated Terms,
+										you can delete your account.</span><span class="p"><strong>Intellectual
+											Property</strong><br />The website and its entire contents, features and
+										functionality (including but not limited to all information, software, text,
+										displays, images, video and audio, and the design, selection and arrangement
+										thereof), are owned by PresentationGPT, its licensors or other providers of such
+										material and are protected by DE and international copyright, trademark, patent,
+										trade secret and other intellectual property or proprietary rights laws. The
+										material may not be copied, modified, reproduced, downloaded or distributed in
+										any way, in whole or in part, without the express prior written permission of
+										PresentationGPT, unless and except as is expressly provided in these Terms &amp;
+										Conditions. Any unauthorized use of the material is prohibited.</span><span
+										class="p"><strong>Agreement to Arbitrate</strong><br />This section applies to
+										any dispute EXCEPT IT DOESN’T INCLUDE A DISPUTE RELATING TO CLAIMS FOR
+										INJUNCTIVE OR EQUITABLE RELIEF REGARDING THE ENFORCEMENT OR VALIDITY OF YOUR OR
+										PresentationGPT&#39;s INTELLECTUAL PROPERTY RIGHTS. The term “dispute” means any
+										dispute, action, or other controversy between you and PresentationGPT concerning
+										the Services or this agreement, whether in contract, warranty, tort, statute,
+										regulation, ordinance, or any other legal or equitable basis. “Dispute” will be
+										given the broadest possible meaning allowable under law.</span><span
+										class="p"><strong>Notice of Dispute</strong><br />In the event of a dispute, you
+										or PresentationGPT must give the other a Notice of Dispute, which is a written
+										statement that sets forth the name, address, and contact information of the
+										party giving it, the facts giving rise to the dispute, and the relief requested.
+										You must send any Notice of Dispute via email to: [email protected]
+										PresentationGPT will send any Notice of Dispute to you by mail to your address
+										if we have it, or otherwise to your email address. You and PresentationGPT will
+										attempt to resolve any dispute through informal negotiation within sixty (60)
+										days from the date the Notice of Dispute is sent. After sixty (60) days, you or
+										PresentationGPT may commence arbitration.</span><span class="p"><strong>Binding
+											Arbitration</strong><br />If you and PresentationGPT don’t resolve any
+										dispute by informal negotiation, any other effort to resolve the dispute will be
+										conducted exclusively by binding arbitration as described in this section. You
+										are giving up the right to litigate (or participate in as a party or class
+										member) all disputes in court before a judge or jury. The dispute shall be
+										settled by binding arbitration in accordance with the commercial arbitration
+										rules of the American Arbitration Association. Either party may seek any interim
+										or preliminary injunctive relief from any court of competent jurisdiction, as
+										necessary to protect the party’s rights or property pending the completion of
+										arbitration. Any and all legal, accounting, and other costs, fees, and expenses
+										incurred by the prevailing party shall be borne by the non-prevailing
+										party.</span><span class="p"><strong>Submissions and Privacy</strong><br />In
+										the event that you submit or post any ideas, creative suggestions, designs,
+										photographs, information, advertisements, data or proposals, including ideas for
+										new or improved products, services, features, technologies or promotions, you
+										expressly agree that such submissions will automatically be treated as
+										non-confidential and non-proprietary and will become the sole property of
+										PresentationGPT without any compensation or credit to you whatsoever.
+										PresentationGPT and its affiliates shall have no obligations with respect to
+										such submissions or posts and may use the ideas contained in such submissions or
+										posts for any purposes in any medium in perpetuity, including, but not limited
+										to, developing, manufacturing, and marketing products and services using such
+										ideas.</span><span class="p"><strong>Promotions</strong><br />PresentationGPT
+										may, from time to time, include contests, promotions, sweepstakes, or other
+										activities (“Promotions”) that require you to submit material or information
+										concerning yourself. Please note that all Promotions may be governed by separate
+										rules that may contain certain eligibility requirements, such as restrictions as
+										to age and geographic location. You are responsible to read all Promotions rules
+										to determine whether or not you are eligible to participate. If you enter any
+										Promotion, you agree to abide by and to comply with all Promotions
+										Rules.</span><span class="p">Additional terms and conditions may apply to
+										purchases of goods or services on or through the Services, which terms and
+										conditions are made a part of this Agreement by this reference.</span><span
+										class="p"><strong>Typographical Errors</strong><br />In the event a product
+										and/or service is listed at an incorrect price or with incorrect information due
+										to typographical error, we shall have the right to refuse or cancel any orders
+										placed for the product and/or service listed at the incorrect price. We shall
+										have the right to refuse or cancel any such order whether or not the order has
+										been confirmed and your credit card charged. If your credit card has already
+										been charged for the purchase and your order is canceled, we shall immediately
+										issue a credit to your credit card account or other payment account in the
+										amount of the charge.</span><span
+										class="p"><strong>Miscellaneous</strong><br />If for any reason a court of
+										competent jurisdiction finds any provision or portion of these Terms &amp;
+										Conditions to be unenforceable, the remainder of these Terms &amp; Conditions
+										will continue in full force and effect. Any waiver of any provision of these
+										Terms &amp; Conditions will be effective only if in writing and signed by an
+										authorized representative of PresentationGPT. PresentationGPT will be entitled
+										to injunctive or other equitable relief (without the obligations of posting any
+										bond or surety) in the event of any breach or anticipatory breach by you.
+										PresentationGPT operates and controls the PresentationGPT Service from its
+										offices in DE. The Service is not intended for distribution to or use by any
+										person or entity in any jurisdiction or country where such distribution or use
+										would be contrary to law or regulation. Accordingly, those persons who choose to
+										access the PresentationGPT Service from other locations do so on their own
+										initiative and are solely responsible for compliance with local laws, if and to
+										the extent local laws are applicable. These Terms &amp; Conditions (which
+										include and incorporate the PresentationGPT Privacy Policy) contains the entire
+										understanding, and supersedes all prior understandings, between you and
+										PresentationGPT concerning its subject matter, and cannot be changed or modified
+										by you. The section headings used in this Agreement are for convenience only and
+										will not be given any legal import.</span><span
+										class="p"><strong>Disclaimer</strong><br />PresentationGPT is not responsible
+										for any content, code or any other imprecision.</span><span
+										class="p">PresentationGPT does not provide warranties or guarantees.</span><span
+										class="p">In no event shall PresentationGPT be liable for any special, direct,
+										indirect, consequential, or incidental damages or any damages whatsoever,
+										whether in an action of contract, negligence or other tort, arising out of or in
+										connection with the use of the Service or the contents of the Service. The
+										Company reserves the right to make additions, deletions, or modifications to the
+										contents on the Service at any time without prior notice.</span><span
+										class="p">The PresentationGPT Service and its contents are provided &quot;as
+										is&quot; and &quot;as available&quot; without any warranty or representations of
+										any kind, whether express or implied. PresentationGPT is a distributor and not a
+										publisher of the content supplied by third parties; as such, PresentationGPT
+										exercises no editorial control over such content and makes no warranty or
+										representation as to the accuracy, reliability or currency of any information,
+										content, service or merchandise provided through or accessible via the
+										PresentationGPT Service. Without limiting the foregoing, PresentationGPT
+										specifically disclaims all warranties and representations in any content
+										transmitted on or in connection with the PresentationGPT Service or on sites
+										that may appear as links on the PresentationGPT Service, or in the products
+										provided as a part of, or otherwise in connection with, the PresentationGPT
+										Service, including without limitation any warranties of merchantability, fitness
+										for a particular purpose or non-infringement of third party rights. No oral
+										advice or written information given by PresentationGPT or any of its affiliates,
+										employees, officers, directors, agents, or the like will create a warranty.
+										Price and availability information is subject to change without notice. Without
+										limiting the foregoing, PresentationGPT does not warrant that the
+										PresentationGPT Service will be uninterrupted, uncorrupted, timely, or
+										error-free.</span><span class="p"><strong>Contact Us</strong><br />Don&#39;t
+										hesitate to contact us if you have any questions: romisyed@outlook.com</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="privacy-section">
+					<div id="container12" class="container default full screen">
+						<div class="wrapper">
+							<div class="inner">
+								<h2 id="text19">Privacy Policy</h2>
+								<p id="text20">Updated at 2023-02-04</p>
+								<p id="text21"><span class="p">PresentationGPT (“we,” “our,” or “us”) is committed to
+										protecting your privacy. This Privacy Policy explains how your personal
+										information is collected, used, and disclosed by PresentationGPT.</span><span
+										class="p">This Privacy Policy applies to our website, and its associated
+										subdomains (collectively, our “Service”) alongside our application,
+										PresentationGPT. By accessing or using our Service, you signify that you have
+										read, understood, and agree to our collection, storage, use, and disclosure of
+										your personal information as described in this Privacy Policy and our Terms of
+										Service. This Privacy Policy was created with Termify.</span><span
+										class="p"><strong>Definitions and key terms</strong><br />To help explain things
+										as clearly as possible in this Privacy Policy, every time any of these terms are
+										referenced, are strictly defined as:</span><span class="p">Cookie: small amount
+										of data generated by a website and saved by your web browser. It is used to
+										identify your browser, provide analytics, remember information about you such as
+										your language preference or login information.<br />Company: when this policy
+										mentions “Company,” “we,” “us,” or “our,” it refers to PresentationGPT, that is
+										responsible for your information under this Privacy Policy.<br />Country: where
+										PresentationGPT or the owners/founders of PresentationGPT are based, in this
+										case is United States<br />Customer: refers to the company, organization or
+										person that signs up to use the PresentationGPT Service to manage the
+										relationships with your consumers or service users.<br />Device: any internet
+										connected device such as a phone, tablet, computer or any other device that can
+										be used to visit PresentationGPT and use the services.<br />IP address: Every
+										device connected to the Internet is assigned a number known as an Internet
+										protocol (IP) address. These numbers are usually assigned in geographic blocks.
+										An IP address can often be used to identify the location from which a device is
+										connecting to the Internet.<br />Personnel: refers to those individuals who are
+										employed by PresentationGPT or are under contract to perform a service on behalf
+										of one of the parties.<br />Personal Data: any information that directly,
+										indirectly, or in connection with other information — including a personal
+										identification number — allows for the identification or identifiability of a
+										natural person.<br />Service: refers to the service provided by PresentationGPT
+										as described in the relative terms (if available) and on this
+										platform.<br />Third-party service: refers to advertisers, contest sponsors,
+										promotional and marketing partners, and others who provide our content or whose
+										products or services we think may interest you.<br />Website:
+										PresentationGPT&#39;s site, which can be accessed via this URL:
+										presentationgpt.com<br />You: a person or entity that is registered with
+										PresentationGPT to use the Services.</span><span class="p"><strong>Information
+											automatically collected</strong><br />There is some information like your
+										Internet Protocol (IP) address and/or browser and device characteristics — is
+										collected automatically when you visit our platform. This information may be
+										used to connect your computer to the Internet. Other information collected
+										automatically could be a login, e-mail address, password, computer and
+										connection information such as browser plug-in types and versions and time zone
+										setting, operating systems and platforms, purchase history, (we sometimes
+										aggregate with similar information from other Users), the full Uniform Resource
+										Locator (URL) clickstream to, through and from our Website that may include date
+										and time; cookie number; parts of the site you viewed or searched for; and the
+										phone number you used to call our Customer Services. We may also use browser
+										data such as cookies, Flash cookies (also known as Flash Local Shared Objects)
+										or similar data on certain parts of our Website for fraud prevention and other
+										purposes. During your visits, we may use software tools such as JavaScript to
+										measure and collect session information including page response times, download
+										errors, length of visits to certain pages, page interaction information (such as
+										scrolling, clicks, and mouse-overs), and methods used to browse away from the
+										page. We may also collect technical information to help us identify your device
+										for fraud prevention and diagnostic purposes.</span><span class="p">We
+										automatically collect certain information when you visit, use or navigate the
+										platform. This information does not reveal your specific identity (like your
+										name or contact information) but may include device and usage information, such
+										as your IP address, browser and device characteristics, operating system,
+										language preferences, referring URLs, device name, country, location,
+										information about who and when you use our and other technical information. This
+										information is primarily needed to maintain the security and operation of our
+										platform, and for our internal analytics and reporting purposes.</span><span
+										class="p"><strong>Sale of Business</strong><br />We reserve the right to
+										transfer information to a third party in the event of a sale, merger or other
+										transfer of all or substantially all of the assets of PresentationGPT or any of
+										its Corporate Affiliates (as defined herein), or that portion of PresentationGPT
+										or any of its Corporate Affiliates to which the Service relates, or in the event
+										that we discontinue our business or file a petition or have filed against us a
+										petition in bankruptcy, reorganization or similar proceeding, provided that the
+										third party agrees to adhere to the terms of this Privacy Policy.</span><span
+										class="p"><strong>Affiliates</strong><br />We may disclose information
+										(including personal information) about you to our Corporate Affiliates. For
+										purposes of this Privacy Policy, &quot;Corporate Affiliate&quot; means any
+										person or entity which directly or indirectly controls, is controlled by or is
+										under common control with PresentationGPT, whether by ownership or otherwise.
+										Any information relating to you that we provide to our Corporate Affiliates will
+										be treated by those Corporate Affiliates in accordance with the terms of this
+										Privacy Policy.</span><span class="p"><strong>Governing Law</strong><br />This
+										Privacy Policy is governed by the laws of the United Arab Emirates without
+										regard to its conflict of laws provision. You consent to the exclusive
+										jurisdiction of the courts in connection with any action or dispute arising
+										between the parties under or in connection with this Privacy Policy except for
+										those individuals who may have rights to make claims under Privacy Shield, or
+										the Swiss-US framework.</span><span class="p">The laws of the United Arab
+										Emirates, excluding its conflicts of law rules, shall govern this Agreement and
+										your use of the website. Your use of the website may also be subject to other
+										local, state, national, or international laws.</span><span class="p">By using
+										PresentationGPT or contacting us directly, you signify your acceptance of this
+										Privacy Policy. If you do not agree to this Privacy Policy, you should not
+										engage with our website or use our services. Continued use of the website,
+										direct engagement with us, or following the posting of changes to this Privacy
+										Policy that do not significantly affect the use or disclosure of your personal
+										information will mean that you accept those changes.</span><span
+										class="p"><strong>Your Consent</strong><br />We&#39;ve updated our Privacy
+										Policy to provide you with complete transparency into what is being set when you
+										visit our site and how it&#39;s being used. By using our website, registering an
+										account, or making a purchase, you hereby consent to our Privacy Policy and
+										agree to its terms.</span><span class="p"><strong>Links to Other
+											Websites</strong><br />This Privacy Policy applies only to the Services. The
+										Services may contain links to other websites not operated or controlled by
+										PresentationGPT. We are not responsible for the content, accuracy or opinions
+										expressed in such websites, and such websites are not investigated, monitored or
+										checked for accuracy or completeness by us. Please remember that when you use a
+										link to go from the Services to another website, our Privacy Policy is no longer
+										in effect. Your browsing and interaction on any other website, including those
+										that have a link on our platform, is subject to that website’s own rules and
+										policies. Such third parties may use their own cookies or other methods to
+										collect information about you.</span><span
+										class="p"><strong>Cookies</strong><br />PresentationGPT uses &quot;Cookies&quot;
+										to identify the areas of our website that you have visited. A Cookie is a small
+										piece of data stored on your computer or mobile device by your web browser. We
+										use Cookies to enhance the performance and functionality of our website but are
+										non-essential to their use. However, without these cookies, certain
+										functionality like videos may become unavailable or you would be required to
+										enter your login details every time you visit the website as we would not be
+										able to remember that you had logged in previously. Most web browsers can be set
+										to disable the use of Cookies. However, if you disable Cookies, you may not be
+										able to access functionality on our website correctly or at all. We never place
+										Personally Identifiable Information in Cookies.</span><span
+										class="p"><strong>Blocking and disabling cookies and similar
+											technologies</strong><br />Wherever you&#39;re located you may also set your
+										browser to block cookies and similar technologies, but this action may block our
+										essential cookies and prevent our website from functioning properly, and you may
+										not be able to fully utilize all of its features and services. You should also
+										be aware that you may also lose some saved information (e.g. saved login
+										details, site preferences) if you block cookies on your browser. Different
+										browsers make different controls available to you. Disabling a cookie or
+										category of cookie does not delete the cookie from your browser, you will need
+										to do this yourself from within your browser, you should visit your
+										browser&#39;s help menu for more information.</span><span
+										class="p"><strong>Payment Details</strong><br />In respect to any credit card or
+										other payment processing details you have provided us, we commit that this
+										confidential information will be stored in the most secure manner
+										possible.</span><span class="p"><strong>Kids&#39; Privacy</strong><br />We do
+										not address anyone under the age of 13. We do not knowingly collect personally
+										identifiable information from anyone under the age of 13. If You are a parent or
+										guardian and You are aware that Your child has provided Us with Personal Data,
+										please contact Us. If We become aware that We have collected Personal Data from
+										anyone under the age of 13 without verification of parental consent, We take
+										steps to remove that information from Our servers.</span><span
+										class="p"><strong>Changes To Our Privacy Policy</strong><br />We may change our
+										Service and policies, and we may need to make changes to this Privacy Policy so
+										that they accurately reflect our Service and policies. Unless otherwise required
+										by law, we will notify you (for example, through our Service) before we make
+										changes to this Privacy Policy and give you an opportunity to review them before
+										they go into effect. Then, if you continue to use the Service, you will be bound
+										by the updated Privacy Policy. If you do not want to agree to this or any
+										updated Privacy Policy, you can delete your account.</span><span
+										class="p"><strong>Third-Party Services</strong><br />We may display, include or
+										make available third-party content (including data, information, applications
+										and other products services) or provide links to third-party websites or
+										services (&quot;Third- Party Services&quot;).</span><span class="p">You
+										acknowledge and agree that PresentationGPT shall not be responsible for any
+										Third-Party Services, including their accuracy, completeness, timeliness,
+										validity, copyright compliance, legality, decency, quality or any other aspect
+										thereof. PresentationGPT does not assume and shall not have any liability or
+										responsibility to you or any other person or entity for any Third-Party
+										Services.</span><span class="p">Third-Party Services and links thereto are
+										provided solely as a convenience to you and you access and use them entirely at
+										your own risk and subject to such third parties&#39; terms and
+										conditions.</span><span class="p"><strong>Tracking
+											Technologies</strong><br />Cookies<br />We use Cookies to enhance the
+										performance and functionality of our $platform but are non-essential to their
+										use. However, without these cookies, certain functionality like videos may
+										become unavailable or you would be required to enter your login details every
+										time you visit the $platform as we would not be able to remember that you had
+										logged in previously.</span><span class="p">Local Storage<br />Local Storage
+										sometimes known as DOM storage, provides web apps with methods and protocols for
+										storing client-side data. Web storage supports persistent data storage, similar
+										to cookies but with a greatly enhanced capacity and no information stored in the
+										HTTP request header.</span><span class="p">Sessions<br />$elnombre uses
+										&quot;Sessions&quot; to identify the areas of our website that you have visited.
+										A Session is a small piece of data stored on your computer or mobile device by
+										your web browser.</span><span class="p"><strong>Information about General Data
+											Protection Regulation (GDPR)</strong><br />We may be collecting and using
+										information from you if you are from the European Economic Area (EEA), and in
+										this section of our Privacy Policy we are going to explain exactly how and why
+										is this data collected, and how we maintain this data under protection from
+										being replicated or used in the wrong way.</span><span class="p"><strong>What is
+											GDPR?</strong><br />GDPR is an EU-wide privacy and data protection law that
+										regulates how EU residents&#39; data is protected by companies and enhances the
+										control the EU residents have, over their personal data.</span><span
+										class="p">The GDPR is relevant to any globally operating company and not just
+										the EU-based businesses and EU residents. Our customers’ data is important
+										irrespective of where they are located, which is why we have implemented GDPR
+										controls as our baseline standard for all our operations worldwide.</span><span
+										class="p"><strong>What is personal data?</strong><br />Any data that relates to
+										an identifiable or identified individual. GDPR covers a broad spectrum of
+										information that could be used on its own, or in combination with other pieces
+										of information, to identify a person. Personal data extends beyond a person’s
+										name or email address. Some examples include financial information, political
+										opinions, genetic data, biometric data, IP addresses, physical address, sexual
+										orientation, and ethnicity.</span><span class="p">The Data Protection Principles
+										include requirements such as:</span><span class="p">Personal data collected must
+										be processed in a fair, legal, and transparent way and should only be used in a
+										way that a person would reasonably expect.<br />Personal data should only be
+										collected to fulfil a specific purpose and it should only be used for that
+										purpose. Organizations must specify why they need the personal data when they
+										collect it.<br />Personal data should be held no longer than necessary to fulfil
+										its purpose.<br />People covered by the GDPR have the right to access their own
+										personal data. They can also request a copy of their data, and that their data
+										be updated, deleted, restricted, or moved to another organization.</span><span
+										class="p"><strong>Why is GDPR important?</strong><br />GDPR adds some new
+										requirements regarding how companies should protect individuals&#39; personal
+										data that they collect and process. It also raises the stakes for compliance by
+										increasing enforcement and imposing greater fines for breach. Beyond these facts
+										it&#39;s simply the right thing to do. At PresentationGPT we strongly believe
+										that your data privacy is very important and we already have solid security and
+										privacy practices in place that go beyond the requirements of this new
+										regulation.</span><span class="p"><strong>Individual Data Subject&#39;s Rights -
+											Data Access, Portability and Deletion</strong><br />We are committed to
+										helping our customers meet the data subject rights requirements of GDPR.
+										PresentationGPT processes or stores all personal data in fully vetted, DPA
+										compliant vendors. We do store all conversation and personal data for up to 6
+										years unless your account is deleted. In which case, we dispose of all data in
+										accordance with our Terms of Service and Privacy Policy, but we will not hold it
+										longer than 60 days.</span><span class="p">We are aware that if you are working
+										with EU customers, you need to be able to provide them with the ability to
+										access, update, retrieve and remove personal data. We got you! We&#39;ve been
+										set up as self service from the start and have always given you access to your
+										data and your customers data. Our customer support team is here for you to
+										answer any questions you might have about working with the API.</span><span
+										class="p">We do not sell the Personal Information of our users.</span><span
+										class="p">For more information about these rights, please contact
+										us.</span><span class="p"><strong>Contact Us</strong><br />Don&#39;t hesitate to
+										contact us if you have any questions: romisyed@outlook.com</span></p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="disclaimer-section">
+					<div id="container11" class="container default full screen">
+						<div class="wrapper">
+							<div class="inner">
+								<h2 id="text12">Disclaimer</h2>
+								<p id="text14">Updated at 2023-02-04</p>
+								<p id="text16"><span class="p">PresentationGPT hereby grants you access to
+										presentationgpt.com (“the Website”) and invites you to purchase the services
+										offered here.</span><span class="p"><strong>Definitions and key
+											terms</strong><br />To help explain things as clearly as possible in this
+										Disclaimer, every time any of these terms are referenced, are strictly defined
+										as:</span><span class="p">Cookie: small amount of data generated by a website
+										and saved by your web browser. It is used to identify your browser, provide
+										analytics, remember information about you such as your language preference or
+										login information.<br />Company: when this policy mentions “Company,” “we,”
+										“us,” or “our,” it refers to PresentationGPT, that is responsible for your
+										information under this Disclaimer.<br />Service: refers to the service provided
+										by PresentationGPT as described in the relative terms (if available) and on this
+										platform.<br />Website: site, which can be accessed via this URL:
+										presentationgpt.com<br />You: a person or entity that is registered with
+										PresentationGPT to use the Services.<br />This Disclaimer was created with
+										Termify.</span><span class="p"><strong>Limited
+											liability</strong><br />PresentationGPT endeavours to update and/or
+										supplement the content of the website on a regular basis. Despite our care and
+										attention, content may be incomplete and/or incorrect.</span><span class="p">The
+										materials offered on the website are offered without any form of guarantee or
+										claim to their correctness. These materials can be changed at any time without
+										prior notice from PresentationGPT.</span><span class="p">Particularly, all
+										prices on the website are stated subject to typing and programming errors. No
+										liability is assumed for the implications of such errors. No agreement is
+										concluded on the basis of such errors.</span><span class="p">PresentationGPT
+										shall not bear any liability for hyperlinks to websites or services of third
+										parties included on the website. From our website, you can visit other websites
+										by following hyperlinks to such external sites. While we strive to provide only
+										quality links to useful and ethical websites, we have no control over the
+										content and nature of these sites. These links to other websites do not imply a
+										recommendation for all the content found on these sites. Site owners and content
+										may change without notice and may occur before we have the opportunity to remove
+										a link which may have gone ‘bad’.</span><span class="p">Please be also aware
+										that when you leave our website, other sites may have different privacy policies
+										and terms which are beyond our control. Please be sure to check the Privacy
+										Policies of these sites as well as their &quot;Terms of Service&quot; before
+										engaging in any business or uploading any information.</span><span
+										class="p"><strong>Errors and Omissions Disclaimer</strong><br />PresentationGPT
+										is not responsible for any content, code or any other imprecision.</span><span
+										class="p">PresentationGPT does not provide warranties or guarantees.</span><span
+										class="p">In no event shall PresentationGPT be liable for any special, direct,
+										indirect, consequential, or incidental damages or any damages whatsoever,
+										whether in an action of contract, negligence or other tort, arising out of or in
+										connection with the use of the Service or the contents of the Service.
+										PresentationGPT reserves the right to make additions, deletions, or
+										modifications to the contents on the Service at any time without prior
+										notice.</span><span class="p"><strong>General Disclaimer</strong><br />The
+										PresentationGPT Service and its contents are provided &quot;as is&quot; and
+										&quot;as available&quot; without any warranty or representations of any kind,
+										whether express or implied. PresentationGPT is a distributor and not a publisher
+										of the content supplied by third parties; as such, PresentationGPT exercises no
+										editorial control over such content and makes no warranty or representation as
+										to the accuracy, reliability or currency of any information, content, service or
+										merchandise provided through or accessible via the PresentationGPT Service.
+										Without limiting the foregoing, PresentationGPT specifically disclaims all
+										warranties and representations in any content transmitted on or in connection
+										with the PresentationGPT Service or on sites that may appear as links on the
+										PresentationGPT Service, or in the products provided as a part of, or otherwise
+										in connection with, the PresentationGPT Service, including without limitation
+										any warranties of merchantability, fitness for a particular purpose or
+										non-infringement of third party rights. No oral advice or written information
+										given by PresentationGPT or any of its affiliates, employees, officers,
+										directors, agents, or the like will create a warranty. Price and availability
+										information is subject to change without notice. Without limiting the foregoing,
+										PresentationGPT does not warrant that the PresentationGPT Service will be
+										uninterrupted, uncorrupted, timely, or error-free.</span><span
+										class="p"><strong>Your Consent</strong><br />We&#39;ve updated our Disclaimer to
+										provide you with complete transparency into what is being set when you visit our
+										site and how it&#39;s being used. By using our website, registering an account,
+										or making a purchase, you hereby consent to our Disclaimer and agree to its
+										terms.</span><span class="p"><strong>Changes To Our
+											Disclaimer</strong><br />Should we update, amend or make any changes to this
+										document so that they accurately reflect our Service and policies. Unless
+										otherwise required by law, those changes will be prominently posted here. Then,
+										if you continue to use the Service, you will be bound by the updated Disclaimer.
+										If you do not want to agree to this or any updated Disclaimer, you can delete
+										your account.</span><span class="p"><strong>Contact Us</strong><br />Don&#39;t
+										hesitate to contact us if you have any questions regarding this
+										Disclaimer.</span></p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+	<script src="assets/main.js"></script>
+	<script src="assets/apiCall.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/gitbrent/pptxgenjs@3.12.0/dist/pptxgen.bundle.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+
+</html>
+
+<script>
+    $(document).ready(function(){
+        var counter = 1;
+        $('#addButton').click(function(){
+            $('#slideNameDiv').append('<input type="text" id="slide-'+counter+'" style="resize: none; height: 30px; width: 80%; font-size: 20px; margin: 3px;" placeholder="Name for Slide '+counter+'" />');
+            document.getElementById("removeButton").style.display = 'block';
+            counter++;
+        });
+        $('#removeButton').click(function(){
+            $('#slide-'+(counter-1)).remove();
+            counter--;
+            if((counter-1)==0){
+                document.getElementById("removeButton").style.display = 'none'; 
+            }
+        });
+    });
+</script>

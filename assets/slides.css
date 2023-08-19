@@ -1,0 +1,161 @@
+#slides-wrapper {
+  flex: 1;
+  align-content: center;
+  display: flex;
+  justify-content: center; /* Horizontally center the slides */
+  flex-wrap: wrap; /* Allow slides to wrap if needed */
+}
+
+.rounded-container {
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  width: 60%;
+  margin-top: 20px; 
+  text-align: center;
+  height: 450px;
+  background-color: black;
+}
+
+.title {
+  background-color: rgb(99, 99, 99);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  width: 100%;
+  font-size: 28px;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row; /* Arrange columns horizontally */
+}
+
+.left-column {
+  flex: 2;
+  text-align: left;
+  padding: 20px;
+  /*background-color: rgba(211, 211, 211, 0.4);  Use RGBA color with opacity */
+  /* background-image: url(images/slidesbase.jpg); */
+  text-align: justify;
+  margin: 0.5%;
+  border-radius: 10px;
+}
+
+/* Keep the text inside .left-column fully opaque */
+.left-column .content,
+.left-column .title {
+  opacity: 1;
+  color: white;
+}
+
+.right-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ppt-image {
+  max-width: 350px;
+  height: 340px;
+  margin: 2px;
+  border-radius: 10px;
+}
+
+.content {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.content ul {
+  list-style: disc;
+  margin-left: auto;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.content li {
+  color: whitesmoke;
+}
+
+.title-slide {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  height: 450px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+/* For Mobile View */
+@media (max-width: 767px) {
+  .rounded-container {
+    width: 100%;
+    height: auto;
+  }
+  
+  .columns {
+    flex-direction: column;
+  }
+  
+  .left-column {
+    flex: 1;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .right-column {
+    flex: 1;
+    margin: 0;
+    justify-content: center;
+  }
+  
+  .ppt-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .title-slide {
+    font-size: 24px;
+    height: 300px;
+  }
+
+  .content {
+    font-size: 8px;
+  }
+}
+
+/* For Tablet View */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .rounded-container {
+    width: 80%;
+  }
+  
+  .left-column {
+    padding: 15px;
+  }
+  
+  .ppt-image {
+    max-width: 300px;
+  }
+  
+  .title-slide {
+    font-size: 32px;
+    height: 400px;
+  }
+
+  .content {
+    font-size: 10px;
+  }
+}
