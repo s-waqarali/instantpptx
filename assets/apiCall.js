@@ -99,7 +99,7 @@ function createPrompt() {
 
 const apiCallToGPT = async (PROMPT) => {
 	const MODEL = 'gpt-3.5-turbo';
-	const API_KEY = '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';
+	const API_KEY = '';
 	const IP_ENDPOINT = 'https://api.openai.com/v1/chat/completions';
 	const MESSAGE = [{ role: "user", content: PROMPT }];
 	try {
@@ -203,7 +203,7 @@ async function showPpt(slideContents) {
 async function fetchSlideImages() {
 	const NUM_SLIDES = parseInt(document.getElementById('no-of-slide').value);
 	const TOPIC = document.getElementById('my-text-box').value;
-	const API_KEY = 'p_lMghMyyy7sg2u4zOPifFsQLyeAI1M-gnpiaBJZxf4';
+	const API_KEY = '';
 	const API_URL = `https://api.unsplash.com/search/photos?query=${TOPIC}&client_id=${API_KEY}&per_page=${NUM_SLIDES}`;
 
 	try {
@@ -219,7 +219,7 @@ async function fetchSlideImages() {
 
 async function fetchBackgroundImage() {
 	const PHOTO_ID = "BMc6gdvStWs";
-	const API_KEY = 'p_lMghMyyy7sg2u4zOPifFsQLyeAI1M-gnpiaBJZxf4';
+	const API_KEY = '';
 	const API_URL = `https://api.unsplash.com/photos/${PHOTO_ID}?client_id=${API_KEY}`;
 	try {
 		const response = await fetch(API_URL);
